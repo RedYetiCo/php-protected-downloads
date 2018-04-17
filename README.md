@@ -9,3 +9,5 @@ Downloading via File System will not work due to the .htaccess file preventing a
 Downloading via PHP Script will work since PHP works around the .htaccess directives. The download.php file does some basic sanitization and is limited to one level deep to prevent directory traversal attacks.
 
 `/download.php?file=example-file.pdf`
+
+...
